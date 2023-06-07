@@ -1,0 +1,173 @@
+body {
+    background-image: linear-gradient(to bottom, rgba(93, 79, 79, 0.5), rgb(0, 0, 0)), url('img/baterista.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-color: black;
+    font-family: 'Chivo Mono', monospace; 
+    
+}
+
+/* Titulo */
+
+.titulo-presentacion{
+    margin-left: 37%;
+    margin-top: 18%;
+}
+.titulo-1{
+    font-size: 400%;
+    color:white
+}
+.titulo-2{
+    font-size: 250%;
+    color:white
+}
+
+/* opciones  */
+
+.barra-opciones{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12%;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.opcion {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 200%;
+}
+.opcion:hover {
+    background-color: #1787d7;
+  }
+
+/* sesion */  
+
+.sesion{
+    color: white;
+    margin-top: 15%;
+}
+.sesion-titulo{
+    margin-left: 45%;
+    font-size: 350%;
+}
+.sesion-lorem{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    font-size: 320%;
+}
+.sesion-wsp{
+    margin-top: 10%;
+    margin-left: 35%;
+    font-size: 200%;
+}
+.sesion-img{
+    width: 8%; 
+    height: auto;
+    margin-left: 45%;
+    margin-top: 5%;
+}
+
+/* master class */
+
+.master{
+    color:white;
+}
+
+.master-titulo{
+    font-size: 350%;
+    margin-top: 20%;
+    margin-left: 40%;
+}
+
+.master-p{
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 320%;
+}
+
+.master-p2{
+    margin-left: 38%;
+    margin-top: 10%;
+}
+
+.master-videos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13%; 
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.master-preguntas{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12%;
+    font-size: 180%;
+}
+
+.p1{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.p2{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.p3{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/* Clases */
+.clases{
+    color:white;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    font-size: 200%;
+}
+.clases-p4{
+    color: red;
+}
+
+
+/* Linea de separacion */
+
+.Line-style{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    margin-top: 20%;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 10%
+}
+
+/* footer */
+
+.barra-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+.footer-inst{
+    width: 8%;
+    
+}
+.footer-spo{
+    width: 8%;
+}
+
+
+
+
+
+
+
+
