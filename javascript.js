@@ -1,3 +1,5 @@
+//variables para botones (mirar)
+
 let btnAbrir1 = document.getElementById("abrirBoton1");
 let btnCerrar1 = document.getElementById("cerrarBoton1");
 let modal1 = document.getElementById("sesion1");
@@ -36,3 +38,4 @@ btnAbrir3.addEventListener("click", () => {
 btnCerrar3.addEventListener("click", () => {
     modal3.style.display = "none";
 })
+

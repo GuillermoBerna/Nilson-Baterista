@@ -11,13 +11,10 @@ body {
 .titulo-presentacion{
     margin-left: 27%;
     margin-top: 9%;
+    
 }
 .titulo-1{
     font-size: 750%;
-    color:white
-}
-.titulo-2{
-    font-size: 250%;
     color:white
 }
 /* estilos boton  */
@@ -88,13 +85,14 @@ button::before{
     position: fixed;
     top: 0;
     left: 0;
-    background-color: rgba(253, 252, 252, 1); /* Fondo semitransparente */
+    background-color: rgb(107, 144, 213);
     z-index: 9999; /* Asegura que la ventana emergente esté por encima del resto del contenido */
     margin-top: 5%;
     margin-left: 19%;
     margin-right: 19%;
     margin-bottom: 15%;
-    border-radius: 10px;
+    border-radius: 10px; 
+   
     
 }
 .sesion-titulo{
@@ -117,9 +115,9 @@ button::before{
     height: auto;
     margin-left: 45%;
     margin-top: 3%;
+    margin-bottom: 10%;
 }
 .sesion-btn{
-    
     background-size: cover;
     position: absolute;
     top: 1%;
@@ -133,7 +131,7 @@ button::before{
     position: fixed;
     top: 0;
     left: 0;
-    background-color: rgba(253, 252, 252, 1); /* Fondo semitransparente */
+    background-color: rgb(107, 144, 213);; /* Fondo semitransparente */
     z-index: 9999; /* Asegura que la ventana emergente esté por encima del resto del contenido */
     margin-top: 5%;
     margin-left: 5%;
@@ -200,7 +198,7 @@ button::before{
     position: fixed;
     top: 0;
     left: 0;
-    background-color: rgba(253, 252, 252, 1); /* Fondo semitransparente */
+    background-color:rgb(107, 144, 213);; /* Fondo semitransparente */
     z-index: 9999; /* Asegura que la ventana emergente esté por encima del resto del contenido */
     margin-top: 5%;
     margin-left: 19%;
@@ -211,6 +209,7 @@ button::before{
 }
 .clases-titulo{
     margin-left: 10%;
+    margin-top: 7%;
 }
 .clases-p1{
     margin-left: 10%;
@@ -236,15 +235,193 @@ button::before{
     margin-bottom: 5%;
 }
 .footer-inst{
-    width: 8%;
-    
+    width: 8%;   
 }
 .footer-spo{
     width: 8%;
 }
 
+/* responsive */
 
 
+@media (max-width: 1199px){
+
+}
+
+@media (max-width: 991px){
+
+}
+
+@media (max-width: 575px){
+    /* Titulo */
+
+.titulo-presentacion{
+    margin-left: 23%;
+    margin-top: 30%;   
+}
+.titulo-1{
+    font-size: 400%;
+    color:white
+}
+/* sesion */
+    .sesion{
+        font-size: x-small;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+        margin-top: 15%;
+    }
+    .sesion-titulo{
+        margin-left: 33%;
+    }
+    .sesion-lorem{
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 5%;
+    }
+    .sesion-wsp{
+        margin-top: 5%;
+        margin-left: 10%;
+        font-size: 200%;
+    }
+    .sesion-img{ 
+        width: 8%; 
+        height: auto;
+        margin-left: 45%;
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+    /* botones */
+    button{
+        font-size: 10px;
+        padding: 8px 16px;
+    }
+    .barra-opciones{
+        display: flex;
+        margin-top: 30%;
+        padding: 5px;
+        margin-left: 5%;
+        margin-right: 5%;
+        flex-direction: column;
+        
+    }
+    .opcion {
+        color: #ffffff;
+        text-decoration: none;
+        padding: 4px 6px;
+        border-radius: 6px;
+        font-size: 110%;
+    }
+    .barra-opciones button{
+        margin-bottom: 15px;
+    }
+
+    /* master class */
+
+.master{
+    display: none;
+    position: fixed;
+    z-index: 9999; /* Asegura que la ventana emergente esté por encima del resto del contenido */
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    overflow-y: auto;
+    max-height: 80%;
+}
+.master-titulo{
+    margin-top: 10%;
+    margin-left: 12%;
+}
+
+.master-p{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    font-size: 150%;
+}
+
+.master-p2{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    margin-bottom: 20%;
+}
+
+.master-videos{
+    display: flex;
+    margin-top: 3%; 
+    margin-left: 5%;
+    margin-right: 5%;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+.instagram-media{
+    width: 20px;
+}
+.youtube{
+    width: 89%;
+}
+
+.master-preguntas{
+    display: flex;
+    margin-top: 5%;
+    font-size: 100%;
+    flex-direction: column;
+}
+
+.p1{
+    margin-left: 7%;
+    margin-right: 5%;
+}
+.p2{
+    margin-left: 7%;
+    margin-right: 5%;
+}
+.p3{
+    margin-left: 7%;
+    margin-right: 5%;
+}
+.master-wsp{
+    margin-top: 5%;
+    margin-left: 12%;
+    font-size: 200%;
+}
+
+/* clases de bateria */
+.clases{
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20%;
+    font-size: 100%;
+}
+.clases-titulo{
+    margin-left: 10%;
+    margin-top: 15%;
+}
+.clases-p1{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.clases-p2{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.clases-p3{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.clases-p4{
+    color: red;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+
+}
 
 
 

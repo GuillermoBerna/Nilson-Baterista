@@ -8,25 +8,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   
     <!-- presentacion -->
-
+<div id="fondo" class="fondo-style">
     <div class="titulo-presentacion">
         <h1 class="titulo-1">Nilson Olguin</h1>
-        <!--<h2 class="titulo-2">Baterista Profesional</h2> -->
     </div>
 
     <!-- Opciones  -->
 
     <div class="barra-opciones">
-        <button id="abrirBoton1" class="opcion">Sesion</button>
+        <button id="abrirBoton1" class="opcion" onclick="fondo()">Sesion</button>
         <button id="abrirBoton2" class="opcion">Master Class</button>
         <button id="abrirBoton3" class="opcion">Clases de Bateria</button>
     </div>
 
+    <!-- footer -->
+
+    <footer>
+        <div class="barra-footer">
+            <img src="img/spotify.png" alt="spotify" class="footer-spo">
+            <img src="img/Instagram.png" alt="instagram" class="footer-inst">
+        </div>
+
+    </footer>
+</div>
     <!-- sesion -->
 
-    <div id="sesion1" class="sesion">
+
+
+    <div id="sesion1" class="sesion">  
          <!-- Contenido de la ventana emergente -->
         <h1 class="sesion-titulo">Sesión</h1>
         <p class="sesion-lorem">
@@ -36,7 +46,8 @@
         <p class="sesion-wsp">Si te interesa hablame por wsp:</p>
         <img src="img/wsp.png" alt="wsp" class="sesion-img">
         <button id="cerrarBoton1" class="sesion-btn">Cerrar</button>
-    </div>
+     </div>
+    
 
 
 
@@ -47,9 +58,9 @@
         <p class="master-p">Tengo la necesidad y las ganas de compartir mis conocimientos hacia los demas, mi nombre es Nilson Olguin espero que puedas darte el tiempo de revisar mi informacion.</p>
         <h2 class="master-p2"> Algunas de mis presentaciones :</h2>
         <div class="master-videos">
-          <blockquote class="instagram-media" data-instgrm-omit-script data-instgrm-permalink="https://www.instagram.com/p/CeN6YhGFtVo/" data-instgrm-version="12"></blockquote>
-          <blockquote class="instagram-media" data-instgrm-omit-script data-instgrm-permalink="https://www.instagram.com/p/CrusgQhttAB/" data-instgrm-version="12"></blockquote>
-          <iframe width="550" height="300" src="https://www.youtube.com/embed/U4fvzfatgyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <blockquote class="instagram-media" data-instgrm-omit-script data-instgrm-permalink="https://www.instagram.com/p/CeN6YhGFtVo/" data-instgrm-version="12" style="height: 500px;"></blockquote>
+          <blockquote class="instagram-media" data-instgrm-omit-script data-instgrm-permalink="https://www.instagram.com/p/CrusgQhttAB/" data-instgrm-version="12" style="height: 500px;"></blockquote>
+          <iframe class="youtube"  width="550" height="300" src="https://www.youtube.com/embed/U4fvzfatgyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
 
        <section class="master-preguntas">
@@ -84,15 +95,7 @@
        <button id="cerrarBoton3" class="sesion-btn">Cerrar</button>
     </div>
 
-     <!-- footer -->
-
-    <footer>
-        <div class="barra-footer">
-            <img src="img/spotify.png" alt="spotify" class="footer-spo">
-            <img src="img/Instagram.png" alt="instagram" class="footer-inst">
-        </div>
-
-    </footer>
+     
 
 <script src="javascript.js"></script>
 <script async src="//www.instagram.com/embed.js"></script>
