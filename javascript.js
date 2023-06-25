@@ -1,41 +1,60 @@
-//variables para botones (mirar)
+//variables como abrir y cerrar modal
+const modal = document.querySelector('.sesion');
+const btnAbrir = document.getElementById('abrirBoton1');
+const modal2 = document.querySelector('.master');
+const btnAbrir2 = document.getElementById('abrirBoton2');
+const modal3 = document.querySelector('.clases');
+const btnAbrir3 = document.getElementById('abrirBoton3');
+const btnCerrar = document.getElementById('cerrarBoton1');
+const btnCerrar2 = document.getElementById('cerrarBoton2');
+const btnCerrar3 = document.getElementById('cerrarBoton3');
 
-let btnAbrir1 = document.getElementById("abrirBoton1");
-let btnCerrar1 = document.getElementById("cerrarBoton1");
-let modal1 = document.getElementById("sesion1");
-let btnAbrir2 = document.getElementById("abrirBoton2");
-let btnCerrar2 = document.getElementById("cerrarBoton2");
-let modal2 = document.getElementById("master2");
-let btnAbrir3 = document.getElementById("abrirBoton3");
-let btnCerrar3 = document.getElementById("cerrarBoton3");
-let modal3 = document.getElementById("clases3");
+//agregamos un evento al hacer click en el boton
 
-//funcion abrir ventana modal sesion1
-btnAbrir1.addEventListener("click", () => {
-    modal1.style.display = "block";
-})
+btnAbrir.addEventListener('click', abrirModal);
+btnCerrar.addEventListener('click', cerrarModal);
+btnAbrir2.addEventListener('click', abrirModal2);
+btnCerrar2.addEventListener('click', cerrarModal2);
+btnAbrir3.addEventListener('click', abrirModal3);
+btnCerrar3.addEventListener('click', cerrarModal3);
 
-btnCerrar1.addEventListener("click", () => {
-    modal1.style.display = "none";
-})
+//funcion modal1
+function abrirModal() {
+  modal.style.display = 'block';
+}
 
-//funcion abrir ventana modal sesion2
+function cerrarModal() {
+  modal.style.display = 'none';
+}
 
-btnAbrir2.addEventListener("click", () => {
-    modal2.style.display = "block";
-})
+//funcion modal2
 
-btnCerrar2.addEventListener("click", () => {
-    modal2.style.display = "none";
-})
+function abrirModal2() {
+  modal2.style.display = 'block';
+}
 
-//funcion abrir ventana modal sesion3
+function cerrarModal2() {
+  modal2.style.display = 'none';
+}
 
-btnAbrir3.addEventListener("click", () => {
-    modal3.style.display = "block";
-})
+//funcion modal3 
 
-btnCerrar3.addEventListener("click", () => {
-    modal3.style.display = "none";
-})
+function abrirModal3() {
+  modal3.style.display = 'block';
+}
+
+function cerrarModal3() {
+  modal3.style.display = 'none';
+}
+
+ 
+
+ 
+
+
+
+
+ 
+
+
 
