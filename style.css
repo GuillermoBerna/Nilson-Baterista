@@ -190,8 +190,15 @@ button::before{
 }
 .master-wsp{
     margin-top: 5%;
-    margin-left: 15%;
+    margin-left: 18%;
     font-size: 200%;
+}
+.sesion-btn2-0{
+    position: fixed;
+    top: -1.7%;
+    margin-left:15.5%;
+    margin-top: 5.5%;
+    background-color: black;
 }
 /* Clases */
 .clases{
